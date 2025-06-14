@@ -1,0 +1,163 @@
+
+.layout {
+    width: 100%;
+    display: grid;
+    grid:
+    "header" auto
+    "main" 
+    "footer" auto
+    / 1fr;
+    gap: 10px 8px;
+}
+
+
+
+.header { 
+    grid-area: header;
+}
+
+
+.nav-item {
+    margin: 5%;
+}
+
+
+.inicio{
+display: block;
+padding: 2%;
+transition: all 0.3s ease-in-out;
+color: black;
+font-size: large;
+text-decoration: none;
+background: none;
+}
+
+.pagina{
+    background-color: aliceblue;
+}
+
+.main { 
+    grid-area: main; 
+}
+
+.footer { 
+    grid-area: footer;
+    background-color: rgb(88, 31, 31);
+    width: 100%;
+ }
+
+
+.imagen{
+    opacity: 0.5;
+    width: 100px;
+    height: 100px;}
+
+.imagen1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parrafo{
+    font-size: large;
+    line-height: 1.6;
+    text-align: justify;
+    color: darkslategrey;
+    margin: 50px;
+}
+
+
+.equipo {
+    width: 60%;
+    margin: 0 auto;
+    padding: 5%;
+}
+
+.abogadas {
+margin: 10%;
+}
+    
+.detalle {
+    text-align: center;
+}   
+
+footer{
+    display: flex;
+}
+
+.lista {
+    color: aliceblue;
+    font-size: small;
+}
+
+
+.imagen3{
+    margin-left: auto;
+    width: 400px;
+    height: 400px;
+}
+
+   
+
+.derechos{
+    text-align: center;
+    color: aliceblue;
+    font-size: small;
+}
+
+.menu{
+    display: flex;
+}
+
+.imagen4 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.parrafoservicios{
+  font-size: large;
+    line-height: 1.6;
+    text-align: center;
+    color: brown;
+    margin: 50px;
+}
+
+.imagen5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;  
+    margin: 50px;
+}
+
+
+.miformulario{
+    margin-left: 100px;
+    border-radius: 10px;
+    display: grid;
+    padding: 5%;
+}
+
+.construccion {
+  width: 80%;          
+  max-width: 500px;     
+
+  margin: 0 auto;       
+ 
+
+}
+
+
+.carrusel2 {
+
+  margin: 0 auto;         
+  padding: 20px;
+  width: 100%;
+  max-width: 1000px;       
+  box-sizing: border-box;
+  display: block;
+}
+  
+
