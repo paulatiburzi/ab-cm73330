@@ -1,153 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+
     <title>mi primer sitio web</title>
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
 
 
 
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/saas.css">
 
 </head>
 
 <body>
-    <header> 
-    
-     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <header>
 
-        <a href="../index.html">
-        <img class="imagen"src="../imagenes/logo2.png">
-        </a>
+        <nav class="navbar navbar-expand-lg">
 
-        <div class="container-fluid">
-            <a class="inicio" href="../index.html">Inicio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./estudio.html">Estudio</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="./servicios.html" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Servicios
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Derecho Penal</a></li>
-                            <li><a class="dropdown-item" href="#">Derecho Civil</a></li>
-                            <li><a class="dropdown-item" href="#">Derecho de Familia</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./equipo.html">Equipo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contacto.html">Contacto</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./CV.html">CV</a>
-                    </li>
-                </ul>
+            <a href="../index.html">
+                <img class="imagen" src="../imagenes/logo2.png">
+            </a>
+
+            <div class="container-fluid">
+                <a class="inicio" href="../index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./estudio.html">Estudio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Servicios
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./servicios.html">Derecho Penal</a></li>
+                                <li><a class="dropdown-item" href="#">Derecho Civil</a></li>
+                                <li><a class="dropdown-item" href="#">Derecho de Familia</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./equipo.html">Equipo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./cv.html">CV</a>
+                        </li>
+
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
-     </header>
+    </header>
 
-<main> 
+    <main>
 
-     <div class="main"> <!-- cuerpo-->
-     
-     
-
-     <!--formularios-->
-
-     
-
-     <form class="miformulario" method="post"><!--etiqueta contenera-->
-
-    <label for="titulo">Envíe su formulario:</label>
-        <br>
-    <div>   
-       <label for="nombre">Nombre:</label>
-         <input type="text" id="nombre">   
-    <div>
-        <br>
-     <div>
-       <label for="apellido">Apellido:</label>
-         <input type="text" id="apellido">
-    </div>   
-        <br>
-    <div>
-       <label for="telefono">Teléfono:</label>
-         <input type="text" id="nombre">
-    </div>    
-        <br>
-     <div>
-       <label for="correo">E-mail::</label>
-         <input type="text" id="correo">
-     </div>   
-         <br>
+        <div class="main"> 
 
 
-          <div class="botones">
-     <div>
-         <input type="submit" value="enviar"> 
-     </div>
-         <br>      
-     <div>
-         <input type="submit" value="limpiar"> 
-     </div>
+            <div class="miformulario">
+                <h3>Envíe su formulario</h3>
+                <form>
 
-         </div>
-     
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre">
+                        <div>
+                            <br>
+                            <div>
+                                <label for="apellido">Apellido:</label>
+                                <input type="text" id="apellido">
+                            </div>
+                            <br>
+                            <div>
+                                <label for="telefono">Teléfono:</label>
+                                <input type="text" id="nombre">
+                            </div>
+                            <br>
+                            <div>
+                                <label for="correo">E-mail::</label>
+                                <input type="text" id="correo">
+                            </div>
+                            <br>
 
-     </form>
 
-    
-</main>
+                </form>
+            </div>
 
-<footer> 
 
-    
-        <div class="footer"> <!--pie de pagina-->
+
+
+
+
+            <div class="botones">
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Limpiar">
+                </div>
+
+            </div>
+
+
+            </form>
+
+
+    </main>
+
+    <footer>
+
+
+        <div class="footer"> 
             <ul>
                 </li>
                 <br>
-                    <li class="lista">
-                        <a class="lista" href="./estudio.html">Estudio</a>
-                    </li>
-                    <li class="lista">
-                        <a class="lista" href="./equipo.html">Equipo</a>
-                    </li>
-                    <li class="lista">
-                        <a class="lista" href="./servicios.html">Servicios</a>
-                    </li>
-                    <li class="lista">
-                        <a class="lista" href="./contacto.html">Contacto</a>
-                    </li>
-                    <li class="lista">
-                        <a class="lista" href="./CV.html">CV</a>
-                    </li>
-                
+                <li class="lista">
+                    <a class="lista" href="./estudio.html">Estudio</a>
+                </li>
+                <li class="lista">
+                    <a class="lista" href="./equipo.html">Equipo</a>
+                </li>
+                <li class="lista">
+                    <a class="lista" href="./servicios.html">Servicios</a>
+                </li>
+                <li class="lista">
+                    <a class="lista" href="./contacto.html">Contacto</a>
+                </li>
+                <li class="lista">
+                    <a class="lista" href="./cv.html">CV</a>
+                </li>
+
                 <br>
 
-                 <div class="derechos">@todos los derechos reservados@ 2025</div>
+                <div class="derechos">@todos los derechos reservados@ 2025</div>
             </ul>
 
-            
-           
-        </div>
-</footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
 
 
 </body>
