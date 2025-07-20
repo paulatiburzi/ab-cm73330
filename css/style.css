@@ -217,9 +217,8 @@ footer {
 
 .enviarcv {
   font-size: 1.3rem;
-  font-weight: bold;
-  color: brown;
-  padding: 40px;
+  font-synthesis-weight: 100px;
+  color: black;
   text-align: center;
   margin: auto;
 }
@@ -271,3 +270,48 @@ height: 100%;
     background-color: #f0f0f0;
   }
   }
+
+ 
+section {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+h2 {
+  font-weight: 600;
+  color: brown;
+}
+
+
+.card {
+  border-radius: 12px;
+  border: 2px solid rgb(118, 135, 137)
+}
+
+
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color:#022e60;
+}
+
+
+.card ul li {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  color: black
+}
+
+
+@media (max-width: 768px) {
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .card ul li {
+    font-size: 0.9rem;
+    
+  }
+}
